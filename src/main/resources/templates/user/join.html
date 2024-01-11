@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>회원가입</title>
-    <link rel="stylesheet" href="boardList.css" />
-    <link rel="stylesheet" href="join.css" />
+    <link rel="stylesheet" th:href="@{/css/board/list.css}" />
+    <link rel="stylesheet" th:href="@{/css/user/join.css}" />
 </head>
 <body>
 <header class="header">
@@ -61,6 +61,6 @@
     </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
-<script src="join.js"></script>
+<script th:src="@{/js/user/join.js}"></script>
 </body>
 </html>
