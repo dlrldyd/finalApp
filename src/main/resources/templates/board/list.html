@@ -24,8 +24,9 @@
     </div>
     <div class="board">
         <!-- 게시물 샘플 -->
-        <div class="board-item">
+        <div class="board-item" th:each="board : ${boardList}">
             <div class="board-img-box">
+
                 <div class="board-item-image" style="background-image: url(https://via.placeholder.com/300x200)"></div>
                 <div class="board-item-info">
               <span class="like">

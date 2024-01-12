@@ -4,6 +4,7 @@
     <typeAliases>
         <typeAlias type="com.example.app.domain.dto.UserDto" alias="userDto"/>
         <typeAlias type="com.example.app.domain.dto.BoardDto" alias="boardDto"/>
+        <typeAlias type="com.example.app.domain.vo.BoardVo" alias="boardVo"/>
     </typeAliases>
 </configuration>
 
